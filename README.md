@@ -6,7 +6,7 @@ Requires math
 Example implementation for obs (verif) and model (wrf_only) datasets  
 
 ```
-import model_prediction_statistics19 as mps
+import model_prediction_statistics as mps
 r = mps.corrcoef(verif[:,4], wrf_only[0:t_end:2,2])
 rmse = mps.rmse(verif[:,4], wrf_only[0:t_end:2,2])
 ri = mps.ri(verif[:,4], wrf_only[0:t_end:2,2])
