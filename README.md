@@ -3,6 +3,6 @@ Model Prediction Statistics from Stow et al. "Skill assessment for coupled biolo
 
 Requires math
 
-Last Updated: 16 December 2020
-Joseph B. Zambon
+Last Updated: 16 December 2020  
+Joseph B. Zambon  
 jbzambon@ncsu.edu
