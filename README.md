@@ -19,9 +19,13 @@ print(r)
 print(rmse)
 14.505171491574997
 print(ri)
+1.015156218579533
 print(ae)
+8.88
 print(aae)
+9.12
 print(mef)
+0.33923598588093395
 ```
 
 Last Updated: 16 December 2020  
