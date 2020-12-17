@@ -29,6 +29,29 @@ print(mef)
 0.33923598588093395
 ```
 
+### MATLAB  
+```
+addpath ./Matlab
+>> mps_corrcoef(verif,model)
+ans =         0.872037254579471
+
+>> mps_rmse(verif,model)    
+ans =         14.505171491575
+
+>> mps_ri(verif,model)  
+ans =         1.01515621857953
+
+>> mps_ae(verif,model)
+ans =         8.88
+
+>> mps_aae(verif,model)
+ans =         9.12
+
+>> mps_mef(verif,model)
+ans =         0.339235985880934
+```
+
+
 Last Updated: 16 December 2020  
 Joseph B. Zambon  
 jbzambon@ncsu.edu
