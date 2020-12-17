@@ -31,7 +31,7 @@ print(mef)
 
 ### MATLAB  
 ```
-addpath ./Matlab
+addpath ./matlab
 >> mps_corrcoef(verif,model)
 ans =         0.872037254579471
 
