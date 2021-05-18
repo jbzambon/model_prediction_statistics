@@ -52,7 +52,7 @@ ans =         0.339235985880934
 ```
 
 
-Original: 16 December 2020
-  Update: 18 May 2021 (Fixed error in MEF found by S. Mao)
+Original: 16 December 2020  
+     Update: 18 May 2021 (Fixed error in MEF found by S. Mao)  
 Joseph B. Zambon  
 jbzambon@ncsu.edu
