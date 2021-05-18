@@ -87,6 +87,7 @@ def mef(x,y):
     p_t    = 0
     for t in range(0,len(x)):
         o_t = o_t + (x[t]-mean_x)**2
-        p_t = p_t + (y[t]-mean_y)**2
+        #p_t = p_t + (y[t]-mean_y)**2    #Error caught by S. Mao
+        p_t = p_t + (y[t]-x[t])**2
     mef_c = (o_t - p_t) / o_t
     return mef_c
