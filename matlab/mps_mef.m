@@ -32,7 +32,8 @@ function [r] = mps_mef(x,y)
     o_t    = 0; p_t    = 0;
     for t=1:size(x,2)
         o_t = o_t + (x(t)-mean_x).^2;
-        p_t = p_t + (y(t)-mean_y).^2;
+        %p_t = p_t + (y(t)-mean_y).^2;   % Fix error caught by S. Mao
+        p_t = p_t + (y(t)-x(t)).^2;
     end
     r = (o_t - p_t) / o_t;
 end
