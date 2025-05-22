@@ -16,17 +16,17 @@ aae = mps.aae(verif[:,4], wrf_only[0:t_end:2,2])
 mef = mps.mef(verif[:,4], wrf_only[0:t_end:2,2])
 
 print(r)
-0.8720372545794709
+0.8720372545794709     <- you want this close to 1
 print(rmse)
-14.505171491574997
+14.505171491574997     <- you want this close to 0
 print(ri)
-1.015156218579533
+1.015156218579533      <- you want this close to 1
 print(ae)
-8.88
+8.88                   <- you want this close to 0
 print(aae)
-9.12
+9.12                   <- you want this close to 0
 print(mef)
-0.33923598588093395
+0.33923598588093395    <- you want this close to 1
 ```
 
 ### MATLAB  
